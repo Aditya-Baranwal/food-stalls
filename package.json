@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Aditya",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-http-context": "^1.2.3",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "mysql2": "^2.2.5",
+    "path": "^0.12.7",
+    "path-to-regexp": "^6.1.0",
+    "random-number": "0.0.9",
+    "randomstring": "^1.1.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5",
+    "stjs": "0.0.5",
+    "util": "^0.12.1",
+    "uuidv1": "^1.6.14",
+    "xls-to-json": "^2.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "supertest": "^4.0.2"
+  }
+}
