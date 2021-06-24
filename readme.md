@@ -27,3 +27,9 @@ curl --location --request GET 'http://localhost:8000/v1/food-stall' \
     "cursor" : 10,
     "limit" : 10 
 }'
+
+
+1) to run this project need to have mysql server on, with table created and data added to table.
+2) follow following steps to run application 
+npm install.
+node start.
