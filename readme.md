@@ -1,4 +1,4 @@
-An application, to manage food shops.
+An application, to manage food stalls.
 
 Creating table to store details of food stalls
 
