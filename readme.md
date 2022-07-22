@@ -1,4 +1,6 @@
-have converted required csv data into mysql table. Query for same.
+An application, to fetch near by food stalls.
+
+Creating table to store details of food stalls
 
 create table food_facility_detail (
 	location_id int(11) not null,
@@ -29,7 +31,7 @@ curl --location --request GET 'http://localhost:8000/v1/food-stall' \
 }'
 
 
-1) to run this project need to have mysql server on, with table created and data added to table.
-2) follow following steps to run application 
+1) To run this project need to have mysql server on, with table created and data added to table.
+2) Follow following steps to run application 
 npm install.
 node start.
