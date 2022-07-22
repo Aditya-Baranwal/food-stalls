@@ -1,4 +1,4 @@
-An application, to fetch near by food stalls.
+An application, to manage food shops.
 
 Creating table to store details of food stalls
 
@@ -16,6 +16,8 @@ create table food_facility_detail (
     	index (latitude),
     	index (longitude)
 );
+
+Application consists of api which can fetch near by food stalls based on loctaion
 
 curl for making request.
 
